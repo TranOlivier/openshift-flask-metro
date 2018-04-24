@@ -3,7 +3,7 @@
 from flask import Flask
 from bs4 import BeautifulSoup
 import requests
-
+import psycopg2
 application = Flask(__name__)
 
 #definition fonction table pour compter les stations de metro
