@@ -6,6 +6,7 @@ import requests
 
 application = Flask(__name__)
 
+#definition fonction table pour compter les stations de metro
 def init_table():
     url = r"https://en.wikipedia.org/wiki/List_of_stations_of_the_Paris_M%C3%A9tro"
     response = requests.get(url)
