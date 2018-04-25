@@ -22,7 +22,7 @@ application = Flask(__name__)
 
 def connect_postgres():
     try:
-        dbname = os.environ.get("POSTGRESQL_DBNAME","NOT FOUND")
+        dbname = os.environ.get("POSTGRESQL_DATABASE","NOT FOUND")
         print("DB = ",dbname)
         user =  os.environ.get("POSTGRESQL_USER","NOT FOUND")
         print("USER = ", user)
