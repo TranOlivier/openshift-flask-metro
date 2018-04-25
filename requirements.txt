@@ -3,4 +3,3 @@ Flask
 BeautifulSoup4
 requests
 psycopg2
-os
