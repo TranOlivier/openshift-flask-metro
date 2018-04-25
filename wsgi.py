@@ -4,6 +4,7 @@ from flask import Flask
 from bs4 import BeautifulSoup
 import requests
 import psycopg2
+import os
 application = Flask(__name__)
 
 
